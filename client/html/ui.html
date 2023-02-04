@@ -1,0 +1,1108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>by meerbi.design</title>
+<style id="applicationStylesheet" type="text/css">
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body::-webkit-scrollbar {
+  display: none;
+}
+body {
+	display:  none;
+	user-select: none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+* {
+	font-family: Poppins;
+}
+	.mediaViewInfo {
+		--web-view-name: Canvas;
+		--web-view-id: Canvas;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: width;
+		--web-enable-scale-up: true;
+		--web-scale-on-resize: true;
+		--web-center-vertically: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: Canvas;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Canvas {
+		position: absolute;
+		width: 1920px;
+		height: 1080px;
+		background-color: rgba(0,0,0,0);
+		overflow: hidden;
+		--web-view-name: Canvas;
+		--web-view-id: Canvas;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: width;
+		--web-enable-scale-up: true;
+		--web-scale-on-resize: true;
+		--web-center-vertically: true;
+		--web-enable-deep-linking: true;
+	}
+	#Bank {
+-webkit-animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+		position: absolute;
+		width: 957px;
+		height: 591px;
+		left: 482px;
+		top: 245px;
+		overflow: visible;
+	}
+@-webkit-keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-1000px);
+            transform: translateY(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-1000px);
+            transform: translateY(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+
+	#bg {
+		position: absolute;
+		width: 957px;
+		height: 591px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#logo {
+		position: absolute;
+		width: 163px;
+		height: 30px;
+		left: 392px;
+		top: 14px;
+		overflow: visible;
+	}
+	#close {
+		position: absolute;
+		width: 25px;
+		height: 25px;
+		left: 906.99px;
+		top: 18px;
+		overflow: visible;
+	}
+	#crewlife_4 {
+		fill: rgba(1,149,245,1);
+	}
+	.crewlife_4 {
+		position: absolute;
+		overflow: visible;
+		width: 25px;
+		height: 25px;
+		left: 0px;
+		top: 0px;
+	}
+	#x_1 {
+		position: absolute;
+		width: 8px;
+		height: 8px;
+		left: 9.01px;
+		top: 8px;
+		overflow: visible;
+	}
+	#Gruppe_15 {
+		position: absolute;
+		width: 368px;
+		height: 447px;
+		left: 70px;
+		top: 91.625px;
+		overflow: visible;
+	}
+	#infos {
+		position: absolute;
+		width: 145px;
+		height: 177.789px;
+		left: 16px;
+		top: 269.211px;
+		overflow: visible;
+	}
+	#ID554K {
+		left: 42.121px;
+		top: 76.789px;
+		position: absolute;
+		overflow: visible;
+		width: 63px;
+		white-space: nowrap;
+		line-height: 26.400001525878906px;
+		margin-top: -2.200000762939453px;
+		text-align: left;
+		font-family: MyriadPro-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 22px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 1px;
+	}
+	#ID22122021_-_422023 {
+		opacity: 0.702;
+		left: 16.121px;
+		top: 53.789px;
+		position: absolute;
+		overflow: visible;
+		width: 120px;
+		white-space: nowrap;
+		line-height: 12px;
+		margin-top: -1px;
+		text-align: left;
+		font-family: Poppins-Medium;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 1px;
+	}
+	#ID1324K {
+		left: 36.121px;
+		top: 147.789px;
+		position: absolute;
+		overflow: visible;
+		width: 77px;
+		white-space: nowrap;
+		line-height: 26.400001525878906px;
+		margin-top: -2.200000762939453px;
+		text-align: left;
+		font-family: MyriadPro-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 22px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 1px;
+	}
+	#ID22122021_-_422023_r {
+		opacity: 0.702;
+		left: 16.121px;
+		top: 124.789px;
+		position: absolute;
+		overflow: visible;
+		width: 120px;
+		white-space: nowrap;
+		line-height: 12px;
+		margin-top: -1px;
+		text-align: left;
+		font-family: Poppins-Medium;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 1px;
+	}
+	#Tab {
+		position: absolute;
+		width: 145px;
+		height: 30.164px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_2_copy_2 {
+		fill: rgba(1,149,245,1);
+	}
+	.Rectangle_2_copy_2 {
+		position: absolute;
+		overflow: visible;
+		width: 145px;
+		height: 2px;
+		left: 0px;
+		top: 28.164px;
+	}
+	#EINKOMMEN {
+		left: 29.418px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 91px;
+		white-space: nowrap;
+		line-height: 14.40000057220459px;
+		margin-top: -1.200000286102295px;
+		text-align: left;
+		font-family: Poppins-Medium;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 2px;
+	}
+	#infos_v {
+		position: absolute;
+		width: 145px;
+		height: 177.789px;
+		left: 190px;
+		top: 269.211px;
+		overflow: visible;
+	}
+	#Aktiviert {
+		left: 34.121px;
+		top: 83.789px;
+		position: absolute;
+		overflow: visible;
+		width: 75px;
+		white-space: nowrap;
+		line-height: 17.499996185302734px;
+		margin-top: -1.4583330154418945px;
+		text-align: left;
+		font-family: Poppins-SemiBold;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14.583330154418945px;
+		color: rgba(0,255,54,1);
+		letter-spacing: 1px;
+	}
+	#Kontostatus {
+		opacity: 0.702;
+		left: 34.121px;
+		top: 53.789px;
+		position: absolute;
+		overflow: visible;
+		width: 72px;
+		white-space: nowrap;
+		line-height: 12px;
+		margin-top: -1px;
+		text-align: left;
+		font-family: Poppins-Medium;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 1px;
+	}
+	#ID5423123 {
+		left: 21.121px;
+		top: 153.789px;
+		position: absolute;
+		overflow: visible;
+		width: 102px;
+		white-space: nowrap;
+		line-height: 20.000003814697266px;
+		margin-top: -1.6666669845581055px;
+		text-align: center;
+		font-style: normal;
+		font-weight: Bold;
+		font-size: 16.666669845581055px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 1px;
+	}
+	#Kontostand {
+		opacity: 0.702;
+		left: 38.121px;
+		top: 124.789px;
+		position: absolute;
+		overflow: visible;
+		width: 68px;
+		white-space: nowrap;
+		line-height: 12px;
+		margin-top: -1px;
+		text-align: left;
+		font-family: Poppins-Medium;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 1px;
+	}
+	#Tab_ {
+		position: absolute;
+		width: 145px;
+		height: 30.164px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_2_copy_2_ {
+		fill: rgba(1,149,245,1);
+	}
+	.Rectangle_2_copy_2_ {
+		position: absolute;
+		overflow: visible;
+		width: 145px;
+		height: 2px;
+		left: 0px;
+		top: 28.164px;
+	}
+	#VERWALTUNG {
+		left: 21.418px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 103px;
+		white-space: nowrap;
+		line-height: 14.40000057220459px;
+		margin-top: -1.200000286102295px;
+		text-align: left;
+		font-family: Poppins-Medium;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 2px;
+	}
+	#Chart {
+		position: absolute;
+		width: 368px;
+		height: 198px;
+		left: 0px;
+		top: 42.375px;
+		overflow: visible;
+	}
+	#Title {
+		position: absolute;
+		width: 327.879px;
+		height: 20px;
+		left: 18.121px;
+		top: 0px;
+		overflow: visible;
+	}
+	#icon_tool {
+		opacity: 0.702;
+		position: absolute;
+		width: 14px;
+		height: 14px;
+		left: 313.879px;
+		top: 1.375px;
+		overflow: visible;
+	}
+	#Ellipse_2 {
+		fill: rgba(255,255,255,1);
+	}
+	.Ellipse_2 {
+		overflow: visible;
+		position: absolute;
+		width: 10.001px;
+		height: 10px;
+		left: 2px;
+		top: 2px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Rounded_Rectangle_1 {
+		fill: rgba(255,255,255,1);
+	}
+	.Rounded_Rectangle_1 {
+		overflow: visible;
+		position: absolute;
+		width: 14px;
+		height: 14px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#AKTIVITTEN {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 112px;
+		white-space: nowrap;
+		line-height: 17.499996185302734px;
+		margin-top: -1.4583330154418945px;
+		text-align: left;
+		font-family: Poppins-Medium;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14.583330154418945px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 1.4px;
+	}
+	#Gruppe_20 {
+		position: absolute;
+		width: 365.582px;
+		height: 418px;
+		left: 516.418px;
+		top: 94px;
+		overflow: visible;
+	}
+	#Gruppe_17 {
+		position: absolute;
+		width: 356px;
+		height: 212px;
+		left: 9.582px;
+		top: 0px;
+		overflow: visible;
+	}
+	#card {
+		position: absolute;
+		width: 356px;
+		height: 212px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#ID4623_6423_9574_4362 {
+		left: 34px;
+		top: 136.8px;
+		position: absolute;
+		overflow: visible;
+		width: 156px;
+		white-space: nowrap;
+		line-height: 14.999999046325684px;
+		margin-top: -1.2499995231628418px;
+		text-align: left;
+		font-family: Metropolis-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12.5px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 1px;
+	}
+	#meerbidesign {
+		left: 35px;
+		top: 119.8px;
+		position: absolute;
+		overflow: visible;
+		width: 101px;
+		white-space: nowrap;
+		line-height: 14.999999046325684px;
+		margin-top: -1.2499995231628418px;
+		text-align: center;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12.5px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 1px;
+	}
+	#Gruppe_19 {
+		position: absolute;
+		width: 365.582px;
+		height: 147.164px;
+		left: 0px;
+		top: 270.836px;
+		overflow: visible;
+	}
+	#Tab_bf {
+		position: absolute;
+		width: 365.582px;
+		height: 34.164px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_2_copy_2_bg {
+		fill: rgba(1,149,245,1);
+	}
+	.Rectangle_2_copy_2_bg {
+		position: absolute;
+		overflow: visible;
+		width: 365px;
+		height: 2px;
+		left: 0.582px;
+		top: 32.164px;
+	}
+	#GELD_BERWEISEN {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 65px;
+		white-space: nowrap;
+		line-height: 12.500004768371582px;
+		margin-top: -1.0416674613952637px;
+		text-align: left;
+		font-family: Poppins-Medium;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10.416669845581055px;
+		color: rgba(255,255,255,1);
+	}
+	#Gruppe_13 {
+		position: absolute;
+		width: 93px;
+		height: 25px;
+		left: 271.582px;
+		top: 0.164px;
+		overflow: visible;
+	}
+	#crewlife_13 {
+		fill: rgba(1,149,245,1);
+	}
+	.crewlife_13 {
+		position: absolute;
+		overflow: visible;
+		width: 93px;
+		height: 25px;
+		left: 0px;
+		top: 0px;
+	}
+	#BERWEISEN {
+		left: 15.578px;
+		top: 5.059px;
+		position: absolute;
+		overflow: visible;
+		width: 66px;
+		white-space: nowrap;
+		line-height: 12.500004768371582px;
+		margin-top: -1.0416674613952637px;
+		text-align: left;
+		font-family: Poppins-SemiBold;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10.416669845581055px;
+		color: rgba(255,255,255,1);
+	}
+	#Gruppe_14 {
+		position: absolute;
+		width: 189px;
+		height: 25px;
+		left: 74.582px;
+		top: 0.164px;
+		overflow: visible;
+	}
+	#crewlife_12 {
+		fill: rgba(28,28,28,1);
+	}
+	.crewlife_12 {
+		position: absolute;
+		overflow: visible;
+		width: 109px;
+		height: 25px;
+		left: 0px;
+		top: 0px;
+	}
+	#Betrag {
+		left: 37.578px;
+		top: 8.059px;
+		position: absolute;
+		overflow: visible;
+		width: 35px;
+		white-space: nowrap;
+		line-height: 12.500004768371582px;
+		margin-top: -1.0416674613952637px;
+		text-align: left;
+		font-family: Metropolis-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10.416669845581055px;
+		color: rgba(255,255,255,1);
+	}
+	#crewlife_12_bo {
+		fill: rgba(28,28,28,1);
+	}
+	.crewlife_12_bo {
+		position: absolute;
+		overflow: visible;
+		width: 72px;
+		height: 25px;
+		left: 117px;
+		top: 0px;
+	}
+	#ID {
+		left: 146.578px;
+		top: 8.059px;
+		position: absolute;
+		overflow: visible;
+		width: 11px;
+		white-space: nowrap;
+		line-height: 12.500004768371582px;
+		margin-top: -1.0416674613952637px;
+		text-align: left;
+		font-family: Metropolis-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10.416669845581055px;
+		color: rgba(255,255,255,1);
+	}
+	#Tab_bq {
+		position: absolute;
+		width: 365.582px;
+		height: 34.164px;
+		left: 0px;
+		top: 57px;
+		overflow: visible;
+	}
+	#Rectangle_2_copy_2_br {
+		fill: rgba(1,149,245,1);
+	}
+	.Rectangle_2_copy_2_br {
+		position: absolute;
+		overflow: visible;
+		width: 365px;
+		height: 2px;
+		left: 0.582px;
+		top: 32.164px;
+	}
+	#GELD_AUSZAHLEN {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 60px;
+		white-space: nowrap;
+		line-height: 12.500004768371582px;
+		margin-top: -1.0416674613952637px;
+		text-align: left;
+		font-family: Poppins-Medium;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10.416669845581055px;
+		color: rgba(255,255,255,1);
+	}
+	#Gruppe_13_bt {
+		position: absolute;
+		width: 93px;
+		height: 25px;
+		left: 271.582px;
+		top: 0.164px;
+		overflow: visible;
+	}
+	#crewlife_13_bu {
+		fill: rgba(1,149,245,1);
+	}
+	.crewlife_13_bu {
+		position: absolute;
+		overflow: visible;
+		width: 93px;
+		height: 25px;
+		left: 0px;
+		top: 0px;
+	}
+	#AUSZAHLEN {
+		left: 16.578px;
+		top: 5.059px;
+		position: absolute;
+		overflow: visible;
+		width: 61px;
+		white-space: nowrap;
+		line-height: 12.500004768371582px;
+		margin-top: -1.0416674613952637px;
+		text-align: left;
+		font-family: Poppins-SemiBold;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10.416669845581055px;
+		color: rgba(255,255,255,1);
+	}
+	#Gruppe_14_bw {
+		position: absolute;
+		width: 189px;
+		height: 25px;
+		left: 74.582px;
+		top: 0.164px;
+		overflow: visible;
+	}
+	#crewlife_12_bx {
+		fill: rgba(28,28,28,1);
+	}
+	.crewlife_12_bx {
+		position: absolute;
+		overflow: visible;
+		width: 189px;
+		height: 25px;
+		left: 0px;
+		top: 0px;
+	}
+	#Betrag_by {
+		left: 77.578px;
+		top: 8.059px;
+		position: absolute;
+		overflow: visible;
+		width: 35px;
+		white-space: nowrap;
+		line-height: 12.500004768371582px;
+		margin-top: -1.0416674613952637px;
+		text-align: left;
+		font-family: Metropolis-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10.416669845581055px;
+		color: rgba(255,255,255,1);
+	}
+	#Tab_bz {
+		position: absolute;
+		width: 365.582px;
+		height: 34.164px;
+		left: 0px;
+		top: 113px;
+		overflow: visible;
+	}
+	#Rectangle_2_copy_2_b {
+		fill: rgba(1,149,245,1);
+	}
+	.Rectangle_2_copy_2_b {
+		position: absolute;
+		overflow: visible;
+		width: 365px;
+		height: 2px;
+		left: 0.582px;
+		top: 32.164px;
+	}
+	#GELD_EINZAHLEN {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 55px;
+		white-space: nowrap;
+		line-height: 12.500004768371582px;
+		margin-top: -1.0416674613952637px;
+		text-align: left;
+		font-family: Poppins-Medium;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10.416669845581055px;
+		color: rgba(255,255,255,1);
+	}
+	#Gruppe_13_b {
+		position: absolute;
+		width: 93px;
+		height: 25px;
+		left: 271.582px;
+		top: 0.164px;
+		overflow: visible;
+	}
+	#crewlife_13_b {
+		fill: rgba(1,149,245,1);
+	}
+	.crewlife_13_b {
+		position: absolute;
+		overflow: visible;
+		width: 93px;
+		height: 25px;
+		left: 0px;
+		top: 0px;
+	}
+	#EINZAHLEN {
+		left: 20.578px;
+		top: 5.059px;
+		position: absolute;
+		overflow: visible;
+		width: 56px;
+		white-space: nowrap;
+		line-height: 12.500004768371582px;
+		margin-top: -1.0416674613952637px;
+		text-align: left;
+		font-family: Poppins-SemiBold;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10.416669845581055px;
+		color: rgba(255,255,255,1);
+	}
+	#Gruppe_14_b {
+		position: absolute;
+		width: 189px;
+		height: 25px;
+		left: 74.582px;
+		top: 0.164px;
+		overflow: visible;
+	}
+	#crewlife_12_b {
+		fill: rgba(28,28,28,1);
+	}
+	.crewlife_12_b {
+		position: absolute;
+		overflow: visible;
+		width: 189px;
+		height: 25px;
+		left: 0px;
+		top: 0px;
+	}
+	#Betrag_b {
+		left: 78.578px;
+		top: 8.059px;
+		position: absolute;
+		overflow: visible;
+		width: 35px;
+		white-space: nowrap;
+		line-height: 12.500004768371582px;
+		margin-top: -1.0416674613952637px;
+		text-align: left;
+		font-family: Metropolis-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 10.416669845581055px;
+		color: rgba(255,255,255,1);
+	}
+#amount,
+#amountw,
+#amountt,
+#to {
+	z-index: 100;
+    background: transparent;
+    outline: none;
+    font-size: 0.7rem;
+    color: #a7a4a4;
+    margin-left: -25px;
+	margin-top: -5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    width: 110px;
+}
+button{
+	cursor: pointer;
+	border: 0;
+}
+.btn{
+	background-color:#0195f5;
+	border-radius:6px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:11px;
+	margin-left: -17px;
+	margin-top: -3px;
+	padding:3px 15px;
+	text-decoration:none;
+
+}
+.btn:hover{
+	background-color: white;
+	color:#111;
+}
+</style>
+<script id="applicationScript" type="text/javascript" src="rescale.js"></script>
+</head>
+<body>
+<div id="Canvas">
+	<div id="Bank">
+		<img id="bg" src="https://cdn.discordapp.com/attachments/788240573382787114/860143572019970058/bg.png">
+			
+		<img id="logo" src="https://cdn.discordapp.com/attachments/788240573382787114/860143575823024138/logo.png">
+		<button class="btn-sign-out">
+			<div id="close">
+				<svg class="crewlife_4">
+					<rect id="crewlife_4" rx="5" ry="5" x="0" y="0" width="25" height="25">
+					</rect>
+				</svg>
+				<img id="x_1" src="https://cdn.discordapp.com/attachments/788240573382787114/860143570870992946/x_1.png">	
+			</div>
+		</button>
+		<div id="Gruppe_15">
+			<div id="infos">
+				<div id="ID554K">
+					<span>55.4K</span>
+				</div>
+				<div id="ID22122021_-_422023">
+					<span>22.12.2021 - 4.2.2023</span>
+				</div>
+				<div id="ID1324K">
+					<span>132.4K</span>
+				</div>
+				<div id="ID22122021_-_422023_r">
+					<span>22.12.2021 - 4.2.2023</span>
+				</div>
+				<div id="Tab">
+					<svg class="Rectangle_2_copy_2">
+						<rect id="Rectangle_2_copy_2" rx="0" ry="0" x="0" y="0" width="145" height="2">
+						</rect>
+					</svg>
+					<div id="EINKOMMEN">
+						<span>EINKOMMEN</span>
+					</div>
+				</div>
+			</div>
+			<div id="infos_v">
+				<div id="Aktiviert">
+					<span>Aktiviert</span>
+				</div>
+				<div id="Kontostatus">
+					<span>Kontostatus</span>
+				</div>
+				<div id="ID5423123">
+					<span class="money"><span class="curbalance"></span><b><span class="dollars"> $</span>
+				</div>
+				<div id="Kontostand">
+					<span>Kontostand</span>
+				</div>
+				<div id="Tab_">
+					<svg class="Rectangle_2_copy_2_">
+						<rect id="Rectangle_2_copy_2_" rx="0" ry="0" x="0" y="0" width="145" height="2">
+						</rect>
+					</svg>
+					<div id="VERWALTUNG">
+						<span>VERWALTUNG</span>
+					</div>
+				</div>
+			</div>
+			<img id="Chart" src="https://cdn.discordapp.com/attachments/788240573382787114/860143574678503435/Chart.png">
+				
+			<div id="Title">
+				<div id="AKTIVITTEN">
+					<span>AKTIVITÄTEN</span>
+				</div>
+			</div>
+		</div>
+		<div id="Gruppe_20">
+			<div id="Gruppe_17">
+				<img id="card" src="https://cdn.discordapp.com/attachments/788240573382787114/860143574149234719/card.png">
+					
+				<div id="ID4623_6423_9574_4362">
+					<span>4623 6423 9574 4362</span>
+				</div>
+				<div id="meerbidesign">
+					<span class="username1"></b></span>
+				</div>
+			</div>
+			<div id="Gruppe_19">
+				<form id="transfer1">
+					<div id="Tab_bf">
+						<svg class="Rectangle_2_copy_2_bg">
+							<rect id="Rectangle_2_copy_2_bg" rx="0" ry="0" x="0" y="0" width="365" height="2">
+							</rect>
+						</svg>
+						<div id="GELD_BERWEISEN">
+							<span>GELD</span><br><span>ÜBERWEISEN</span>
+						</div>
+						<div id="Gruppe_13">
+							<div id="BERWEISEN">
+								<button class="btn btn-green" type="submit">
+								<span>ÜBERWEISEN</span>
+							</div>
+						</div>
+						<div id="Gruppe_14">
+							<svg class="crewlife_12">
+								<rect id="crewlife_12" rx="5" ry="5" x="0" y="0" width="109" height="25">
+								</rect>
+							</svg>
+							<div id="Betrag">
+								<input style="margin-left: -27px;" id="amountt" type="number" placeholder="0 $">
+							</div>
+							<svg class="crewlife_12_bo">
+								<rect id="crewlife_12_bo" rx="5" ry="5" x="0" y="0" width="72" height="25">
+								</rect>
+							</svg>
+							<div id="ID">
+								<input id="to" style="margin-left: -48px;" type="text" placeholder="ID">
+							</div>
+						</div>
+					</div>
+				</form>
+				<form id="withdraw1">
+					<div id="Tab_bq">
+						<svg class="Rectangle_2_copy_2_br">
+							<rect id="Rectangle_2_copy_2_br" rx="0" ry="0" x="0" y="0" width="365" height="2">
+							</rect>
+						</svg>
+						<div id="GELD_AUSZAHLEN">
+							<span>GELD</span><br><span>AUSZAHLEN</span>
+						</div>
+						<div id="Gruppe_13_bt">
+							<div id="AUSZAHLEN">
+								<button class="btn btn-green" type="submit">
+								<span>AUSZAHLEN</span>
+							</div>
+						</div>
+						<div id="Gruppe_14_bw">
+							<svg class="crewlife_12_bx">
+								<rect id="crewlife_12_bx" rx="5" ry="5" x="0" y="0" width="189" height="25">
+								</rect>
+							</svg>
+							<div id="Betrag_by">
+								<input id="amountw" type="number" placeholder="0 $">
+							</div>
+						</div>
+					</div>
+				</form>
+				<form id="deposit1">
+					<div id="Tab_bz">
+						<svg class="Rectangle_2_copy_2_b">
+							<rect id="Rectangle_2_copy_2_b" rx="0" ry="0" x="0" y="0" width="365" height="2">
+							</rect>
+						</svg>
+						<div id="GELD_EINZAHLEN">
+							<span>GELD</span><br><span>EINZAHLEN</span>
+						</div>
+						<div id="Gruppe_13_b">
+							<div id="EINZAHLEN">
+								<button class="btn" type="submit">
+								<span>EINZAHLEN</span>
+							</div>
+						</div>
+						<div id="Gruppe_14_b">
+							<svg class="crewlife_12_b">
+								<rect id="crewlife_12_b" rx="5" ry="5" x="0" y="0" width="189" height="25">
+								</rect>
+							</svg>
+							<div id="Betrag_b">
+								<b><input id="amount" type="number" placeholder="0 $"></b>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    	<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+    	<script type="text/javascript">
+    		$(function() {
+				window.addEventListener('message', function(event) {
+					if (event.data.type === "openGeneral"){
+		                $('body').show();
+					} else if(event.data.type === "balanceHUD") {
+							$('.username1').html(event.data.player);
+							$('.curbalance').html(event.data.balance);
+					} else if (event.data.type === "closeAll"){
+		                $('body').hide();
+					}
+					else if (event.data.type === "result") {
+						if (event.data.t == "success")
+							$("#result").attr('class', 'alert-green');
+						else
+							$("#result").attr('class', 'alert-orange');
+						$("#result").html(event.data.m).show().delay(5000).fadeOut();
+					}
+				});
+			});
+    		$('.btn-sign-out').click(function(){
+	            $('body').hide();
+	            $.post('http://crewlife_banking/NUIFocusOff', JSON.stringify({}));
+	        })
+	        $("#deposit1").submit(function(e) {
+		        e.preventDefault(); 
+		        $.post('http://crewlife_banking/deposit', JSON.stringify({
+		            amount: $("#amount").val()
+		        }));
+			});
+			$("#transfer1").submit(function(e) {
+		        e.preventDefault(); 
+		        $.post('http://crewlife_banking/transfer', JSON.stringify({
+					to: $("#to").val(),
+		            amountt: $("#amountt").val()
+		        }));
+			});
+			$("#withdraw1").submit(function(e) {
+				e.preventDefault(); 
+		        $.post('http://crewlife_banking/withdrawl', JSON.stringify({
+		            amountw: $("#amountw").val()
+		        }));
+			});
+			document.onkeyup = function(data){
+		        if (data.which == 27){
+		            $('body').hide();
+		            $.post('http://crewlife_banking/NUIFocusOff', JSON.stringify({}));
+		        }
+		    }
+    	</script>
+</body>
+</html>
